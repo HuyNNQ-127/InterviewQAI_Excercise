@@ -19,7 +19,13 @@ Training a Convolutional Neural Network (CNN) with triplet loss involves optimiz
 
 - **Accuracy**: Achieves 100% accuracy with batch sizes of 16 or greater.
 - **Training Time**: Training time decreases significantly with larger batch sizes, from 1360 seconds with batch size 8 to 176 seconds with batch size 256.
+- **Batch size**:Using larger batch sizes for training a CNN with triplet loss improves accuracy and reduces training time, making the process more efficient as batch size increases.
 
-## Summary
 
-Using larger batch sizes for training a CNN with triplet loss improves accuracy and reduces training time, making the process more efficient as batch size increases.
+## Comparision between Machine learning and Deep learning approachs 
+-**Traditional Machine Learning**: Best suited for simpler tasks with smaller datasets where manual feature extraction is feasible. They are less resource-intensive and simpler to implement but may struggle with more complex data.
+  +In this peculiar dataset, due to it's complexity, machine learning models tends to perform slower with lower accuracy overall if pre-processing steps are not taken
+
+-**Neural Networks**: More powerful and flexible, capable of achieving high accuracy and handling complex data with automatic feature learning. However, they are computationally intensive, complex to implement, and require larger datasets.
+
+For OCR on MNIST specifically, neural networks generally outperform traditional machine learning methods due to their ability to automatically learn features and handle variations in data, but traditional methods might still be useful for quick, simpler implementations or in resource-constrained environments
