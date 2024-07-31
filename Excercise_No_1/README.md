@@ -10,7 +10,7 @@ K-Nearest Neighbors is a simple and intuitive classification algorithm that clas
 
 Using Le Cun et al's research in 1998*, we can see that the test error rate of our models have the variance of +/- 0.09941 with highest accuracy at k_nearest_neighbor = 1 or 3 when the sample size = 10,000
 
-*[MNIST database (https://yann.lecun.com/exdb/mnist/)][website]
+*[MNIST database (https://yann.lecun.com/exdb/mnist/)]
 ## Support Vector Machine (SVM)
 
 Support Vector Machine is a powerful classification technique that seeks to find the optimal hyperplane that best separates classes in the feature space. The SVM model was evaluated with and without PCA applied, yielding the following accuracy results:
