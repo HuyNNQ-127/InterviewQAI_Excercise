@@ -15,10 +15,10 @@ K-Nearest Neighbors is a simple and intuitive classification algorithm that clas
 Support Vector Machine is a powerful classification technique that seeks to find the optimal hyperplane that best separates classes in the feature space. The SVM model was evaluated with and without PCA applied, yielding the following accuracy results:
 
 - **Without PCA**
-  - Accuracy: **74.31%**
+  - Accuracy: **80.28%**
 
 - **With PCA**
-  - Accuracy: **86.52%**
+  - Accuracy: **89.52%**
 
 The application of PCA significantly improved the model's accuracy, demonstrating the effectiveness of dimensionality reduction in enhancing classification performance.
 
