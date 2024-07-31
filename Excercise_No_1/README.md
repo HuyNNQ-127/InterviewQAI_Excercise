@@ -6,7 +6,7 @@ This document provides an overview of building classification machine learning m
 
 K-Nearest Neighbors is a simple and intuitive classification algorithm that classifies data points based on the labels of their nearest neighbors in the feature space. :
 
-![KNN Visualization](E:\Python\QAI_Review_Test\KNN_plot_baseline.png)
+![KNN Result]([E:\Python\QAI_Review_Test\KNN_plot_baseline.png](https://github.com/HuyNNQ-127/InterviewQAI_Excercise/blob/main/Excercise_No_1/KNN_plot_baseline.png))
 
 .
 
