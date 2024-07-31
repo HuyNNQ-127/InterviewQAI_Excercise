@@ -1,6 +1,6 @@
 # InterviewQAI_Excercise: Machine Learning Methods on MNIST Dataset
 
-This document provides links to detailed exercises on applying various machine learning methods to the MNIST dataset. Each exercise focuses on different aspects of model building, evaluation, and optimization.
+Exercises about applying various machine learning methods to the MNIST dataset. Each exercise focuses on different aspects of model building, evaluation, and optimization.
 
 ## Exercises
 
