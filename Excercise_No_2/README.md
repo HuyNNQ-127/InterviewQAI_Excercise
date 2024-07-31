@@ -13,12 +13,9 @@ The triplet loss involves three components:
 ### Formula:
 
 Using cosine similarity as the distance metric, the triplet loss is defined as:
-
- $$
-
+$$
 L(x_a, x_p, x_n) = \max(0, \text{sim}(f(x_a), f(x_p)) - \text{sim}(f(x_a), f(x_n)) + \epsilon)
-
- $$
+$$
 
 Where:
 
