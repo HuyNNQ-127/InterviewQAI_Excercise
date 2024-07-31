@@ -14,11 +14,11 @@ The triplet loss involves three components:
 
 Using cosine similarity as the distance metric, the triplet loss is defined as:
 
-\[
+ \[
 
 L(x_a, x_p, x_n) = \max(0, \text{sim}(f(x_a), f(x_p)) - \text{sim}(f(x_a), f(x_n)) + \epsilon)
 
-\]
+ \]
 
 Where:
 
@@ -39,9 +39,9 @@ Given:
 
 The extended triplet loss is defined as:
 
-\[
+ \[
 L = \frac{1}{k \cdot m} \sum_{j=1}^k \sum_{i=1}^m \max(0, \text{sim}(f(x_a), f(x_p^j)) - \text{sim}(f(x_a), f(x_n^i)) + \epsilon)
-\]
+ \]
 
 Where:
 
