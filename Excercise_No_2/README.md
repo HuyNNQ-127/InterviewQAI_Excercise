@@ -6,9 +6,9 @@ Triplet loss is a crucial concept in machine learning, it is designed to ensure 
 
 The triplet loss involves three components:
 
-- **Anchor (\(x_a\))**: The reference input.
-- **Positive (\(x_p\))**: An input similar to the anchor.
-- **Negative (\(x_n\))**: An input dissimilar to the anchor.
+- **Anchor ($x_a$)**: The reference input.
+- **Positive ($x_p$)**: An input similar to the anchor.
+- **Negative ($x_n$)**: An input dissimilar to the anchor.
 
 ### Formula:
 
@@ -20,9 +20,9 @@ $$
 
 Where:
 
-- **\(\text{sim}(f(x_a), f(x_p))\)**: Cosine similarity between the anchor and positive embeddings.
-- **\(\text{sim}(f(x_a), f(x_n))\)**: Cosine similarity between the anchor and negative embeddings.
-- **\(\epsilon\)**: The margin hyperparameter, representing the minimum required distance between positive and negative pairs.
+- **$\text{sim}(f(x_a), f(x_p))$**: Cosine similarity between the anchor and positive embeddings.
+- **$\text{sim}(f(x_a), f(x_n))$**: Cosine similarity between the anchor and negative embeddings.
+- **$\epsilon$**: The margin hyperparameter, representing the minimum required distance between positive and negative pairs.
 
 
 
@@ -32,8 +32,8 @@ Where:
 
 Given:
 
-- **Positives (\(x_p^1, x_p^2, \ldots, x_p^k\))**: Multiple positive samples.
-- **Negatives (\(x_n^1, x_n^2, \ldots, x_n^m\))**: Multiple negative samples.
+- **Positives ($x_p^1, x_p^2, \ldots, x_p^k$)**: Multiple positive samples.
+- **Negatives ($x_n^1, x_n^2, \ldots, x_n^m$)**: Multiple negative samples.
 
 The extended triplet loss is defined as:
 
@@ -43,11 +43,11 @@ $$
 
 Where:
 
-- **\(k\)**: Number of positive samples.
-- **\(m\)**: Number of negative samples.
-- **\(\text{sim}(f(x_a), f(x_p^j))\)**: Similarity between the anchor and each positive sample.
-- **\(\text{sim}(f(x_a), f(x_n^i))\)**: Similarity between the anchor and each negative sample.
-- **\(\epsilon\)**: Margin parameter.
+- **$k$**: Number of positive samples.
+- **$m$**: Number of negative samples.
+- **$\text{sim}(f(x_a), f(x_p^j))$**: Similarity between the anchor and each positive sample.
+- **$\text{sim}(f(x_a), f(x_n^i))$**: Similarity between the anchor and each negative sample.
+- **$\epsilon$**: Margin parameter.
 
 ### Explanation
 
