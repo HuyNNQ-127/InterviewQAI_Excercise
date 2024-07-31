@@ -3,7 +3,9 @@
 ## Overview
 
 Training a Convolutional Neural Network (CNN) with triplet loss involves optimizing the model to learn embeddings that maintain a specified margin between similar and dissimilar items. Here’s a summary of model performance with varying batch sizes and training times.
-
+## Triplet loss
+CNNs learn to transform input images into feature embeddings in a high-dimensional space. Triplet loss ensures that these embeddings are structured in a way that similar images (anchor and positive) are close together, while dissimilar images (anchor and negative) are further apart
+Euclidean distance is used to calculate the triplet loss between anchor, positive and negative
 ## Performance and Training Time
 
 | Batch Size | Accuracy | Time (s) |
